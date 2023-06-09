@@ -1,6 +1,7 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.by import By
 
 
@@ -19,6 +20,10 @@ class BasePage:
             return True
         except TimeoutException:
             return False
+
+    def selectOptionByText(self, locator, text):
+        dropdown = Select(locator)
+        dropdown.select_by_visible_text(text)
 
     def verify_link_presence(self, text):
         WebDriverWait(self.driver, 7).until(

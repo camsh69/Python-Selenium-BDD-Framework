@@ -1,5 +1,4 @@
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.select import Select
 from features.pages.base_page import BasePage
 import logging
 from utilities.LogUtil import Logger
@@ -64,11 +63,10 @@ class HomePage(BasePage):
 
     def checkCheckBox(self):
         self.selectCheckBox().click()
-        log.logger.info("CLicking on an Checkbox")
+        log.logger.info("Clicking on an Checkbox")
 
     def enterGender(self, gender):
-        dropdown = Select(self.selectGender())
-        dropdown.select_by_visible_text(gender)
+        self.selectOptionByText(self.selectGender(), gender)
         log.logger.info("Selecting an Element with value " + str(gender))
 
     def clickSubmit(self):
