@@ -21,7 +21,7 @@ class BasePage:
         except TimeoutException:
             return False
 
-    def selectOptionByText(self, locator, text):
+    def select_option_by_text(self, locator, text):
         dropdown = Select(locator)
         dropdown.select_by_visible_text(text)
 

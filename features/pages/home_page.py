@@ -15,60 +15,60 @@ class HomePage(BasePage):
     submitBtn = (By.XPATH, "//input[@type='submit']")
     message = (By.CLASS_NAME, "alert-success")
 
-    def selectName(self):
+    def select_name(self):
         element = self.driver.find_element(*HomePage.name)
         self.wait_for_element_to_be_clickable(element)
         return element
 
-    def selectEmail(self):
+    def select_email(self):
         element = self.driver.find_element(*HomePage.email)
         self.wait_for_element_to_be_clickable(element)
         return element
 
-    def selectPassword(self):
+    def select_password(self):
         element = self.driver.find_element(*HomePage.password)
         self.wait_for_element_to_be_clickable(element)
         return element
 
-    def selectCheckBox(self):
+    def select_check_box(self):
         element = self.driver.find_element(*HomePage.checkBox)
         self.wait_for_element_to_be_clickable(element)
         return element
 
-    def selectGender(self):
+    def select_gender(self):
         element = self.driver.find_element(*HomePage.gender)
         self.wait_for_element_to_be_clickable(element)
         return element
 
-    def selectSubmit(self):
+    def select_submit(self):
         element = self.driver.find_element(*HomePage.submitBtn)
         self.wait_for_element_to_be_clickable(element)
         return element
 
-    def selectMessage(self):
+    def select_message(self):
         element = self.driver.find_element(*HomePage.message)
         return element
 
-    def enterName(self, name):
-        self.selectName().send_keys(name)
+    def enter_name(self, name):
+        self.select_name().send_keys(name)
         log.logger.info("Typing in an Element with value " + str(name))
 
-    def enterEmail(self, email):
-        self.selectEmail().send_keys(email)
+    def enter_email(self, email):
+        self.select_email().send_keys(email)
         log.logger.info("Typing in an Element with value " + str(email))
 
-    def enterPassword(self, password):
-        self.selectPassword().send_keys(password)
+    def enter_password(self, password):
+        self.select_password().send_keys(password)
         log.logger.info("Typing in an Element with value " + str(password))
 
-    def checkCheckBox(self):
-        self.selectCheckBox().click()
-        log.logger.info("Clicking on an Checkbox")
+    def check_check_box(self):
+        self.select_check_box().click()
+        log.logger.info("Clicking on a Checkbox")
 
-    def enterGender(self, gender):
-        self.selectOptionByText(self.selectGender(), gender)
+    def enter_gender(self, gender):
+        self.select_option_by_text(self.select_gender(), gender)
         log.logger.info("Selecting an Element with value " + str(gender))
 
-    def clickSubmit(self):
-        self.selectSubmit().click()
+    def click_submit(self):
+        self.select_submit().click()
         log.logger.info("Clicking on submit button")
