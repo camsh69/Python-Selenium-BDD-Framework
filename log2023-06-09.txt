@@ -1,0 +1,18 @@
+2023-06-09 19:40:53,623 - home_page.py:[55] - [INFO] - Typing in an Element with value Joe
+2023-06-09 19:40:54,097 - home_page.py:[59] - [INFO] - Typing in an Element with value dummy@email.com
+2023-06-09 19:40:54,275 - home_page.py:[63] - [INFO] - Typing in an Element with value password
+2023-06-09 19:40:54,932 - home_page.py:[67] - [INFO] - CLicking on an Checkbox
+2023-06-09 19:40:55,243 - home_page.py:[72] - [INFO] - Selecting an Element with value Male
+2023-06-09 19:40:55,640 - home_page.py:[76] - [INFO] - Clicking on submit button
+2023-06-09 19:41:06,660 - home_page.py:[55] - [INFO] - Typing in an Element with value Joe
+2023-06-09 19:41:07,106 - home_page.py:[59] - [INFO] - Typing in an Element with value dummy@email.com
+2023-06-09 19:41:07,260 - home_page.py:[63] - [INFO] - Typing in an Element with value password
+2023-06-09 19:41:07,837 - home_page.py:[67] - [INFO] - CLicking on an Checkbox
+2023-06-09 19:41:08,325 - home_page.py:[72] - [INFO] - Selecting an Element with value Male
+2023-06-09 19:41:08,736 - home_page.py:[76] - [INFO] - Clicking on submit button
+2023-06-09 19:41:18,888 - home_page.py:[55] - [INFO] - Typing in an Element with value Sue
+2023-06-09 19:41:19,427 - home_page.py:[59] - [INFO] - Typing in an Element with value dummy@email.com
+2023-06-09 19:41:19,610 - home_page.py:[63] - [INFO] - Typing in an Element with value password
+2023-06-09 19:41:20,178 - home_page.py:[67] - [INFO] - CLicking on an Checkbox
+2023-06-09 19:41:20,876 - home_page.py:[72] - [INFO] - Selecting an Element with value Female
+2023-06-09 19:41:21,283 - home_page.py:[76] - [INFO] - Clicking on submit button
