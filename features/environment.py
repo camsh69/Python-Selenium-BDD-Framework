@@ -1,25 +1,33 @@
 import allure
 from selenium import webdriver
+from selenium.common.exceptions import TimeoutException
 from utilities import configReader
 
 
 def before_scenario(context, driver):
     url = configReader.readConfig("config", "url")
-    if configReader.readConfig("config", "browser") == "chrome":
-        options = webdriver.ChromeOptions()
-        if configReader.readConfig("config", "headless") == "true":
-            options.add_argument("--headless")
-            options.add_argument("--start-maximised")
-        context.driver = webdriver.Chrome(options=options)
-        # elif configReader.readConfig("basic info", "browser") == "firefox":
-        #     context.driver = webdriver.Firefox()
-        # elif configReader.readConfig("basic info", "browser") == "edge":
-        #     context.driver = webdriver.Edge()
+    browser = configReader.readConfig("config", "browser")
+    headless = configReader.readConfig("config", "headless")
 
-        context.driver.implicitly_wait(5)
-        context.driver.set_page_load_timeout(30)
-        context.driver.maximize_window()
+    if browser == "chrome":
+        options = webdriver.ChromeOptions()
+        if headless == "true":
+            options.add_argument("--headless")
+            options.add_argument("--start-maximized")
+        context.driver = webdriver.Chrome(options=options)
+    elif browser == "firefox":
+        context.driver = webdriver.Firefox()
+    elif browser == "edge":
+        context.driver = webdriver.Edge()
+
+    # context.driver.implicitly_wait(5)
+    context.driver.set_page_load_timeout(30)
+    context.driver.maximize_window()
+
+    try:
         context.driver.get(url)
+    except TimeoutException:
+        pass
 
 
 def after_scenario(context, driver):
