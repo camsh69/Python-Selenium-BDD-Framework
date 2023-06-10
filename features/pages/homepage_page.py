@@ -48,15 +48,15 @@ class HomePage(BasePage):
 
     def enter_name(self, name):
         self.select_name().send_keys(name)
-        self.log.logger.info("Typing in a name with value " + str(name))
+        self.log.logger.info(f"Typing in a name with value {name}")
 
     def enter_email(self, email):
         self.select_email().send_keys(email)
-        self.log.logger.info("Typing in an email with value " + str(email))
+        self.log.logger.info(f"Typing in an email with value {email}")
 
     def enter_password(self, password):
         self.select_password().send_keys(password)
-        self.log.logger.info("Typing in a password with value " + str(password))
+        self.log.logger.info(f"Typing in a password with value {password}")
 
     def check_check_box(self):
         self.select_check_box().click()
@@ -64,7 +64,7 @@ class HomePage(BasePage):
 
     def enter_gender(self, gender):
         self.select_option_by_text(self.select_gender(), gender)
-        self.log.logger.info("Selecting a dropdown option with value " + str(gender))
+        self.log.logger.info(f"Selecting a dropdown option with value {gender}")
 
     def click_submit(self):
         self.select_submit().click()
