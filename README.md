@@ -1,6 +1,7 @@
 # Python-Selenium-Behave-BDD
 
-- `behave` to run all tests (default browser is Chrome),
+- Url, browser and headless option can be set in config/config.ini (note: features/environment.py will also need updated if changing browser from chrome)
+- `behave` to run all tests
 - `behave features\(name_of_feature).feature` to run specific feature file
 - `behave -f allure_behave.formatter:AllureFormatter -o reports/ features` to run tests and then `allure serve reports/` to generate a report
 

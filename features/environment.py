@@ -4,10 +4,10 @@ from utilities import configReader
 
 
 def before_scenario(context, driver):
-    url = configReader.readConfig("basic info", "url")
-    if configReader.readConfig("basic info", "browser") == "chrome":
+    url = configReader.readConfig("config", "url")
+    if configReader.readConfig("config", "browser") == "chrome":
         options = webdriver.ChromeOptions()
-        if configReader.readConfig("basic info", "headless") == "true":
+        if configReader.readConfig("config", "headless") == "true":
             options.add_argument("--headless")
             options.add_argument("--start-maximised")
         context.driver = webdriver.Chrome(options=options)

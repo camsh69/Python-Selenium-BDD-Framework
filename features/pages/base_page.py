@@ -1,3 +1,5 @@
+import logging
+from utilities.LogUtil import Logger
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
@@ -5,7 +7,9 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.by import By
 
 
-class BasePage:
+class BasePage(object):
+    log = Logger(__name__, logging.INFO)
+
     def __init__(self, driver):
         self.driver = driver
 
@@ -14,9 +18,7 @@ class BasePage:
 
     def is_element_visible(self, element, time=20):
         try:
-            WebDriverWait(self.driver, time).until(
-                EC.visibility_of_element_located(element)
-            )
+            WebDriverWait(self.driver, time).until(EC.visibility_of(element))
             return True
         except TimeoutException:
             return False
