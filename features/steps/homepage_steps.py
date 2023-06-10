@@ -1,5 +1,5 @@
 from behave import *
-from features.pages.home_page import HomePage
+from features.pages.homepage_page import HomePage
 
 
 @given("I enter a firstname of '{name}'")
