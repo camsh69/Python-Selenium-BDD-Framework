@@ -58,7 +58,7 @@ class HomePage(BasePage):
         self.select_password().send_keys(password)
         self.log.logger.info(f"Typing in a password with value {password}")
 
-    def check_check_box(self):
+    def check_checkbox(self):
         self.select_check_box().click()
         self.log.logger.info("Clicking on a Checkbox")
 

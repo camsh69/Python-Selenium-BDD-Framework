@@ -23,7 +23,7 @@ def I_enter_a_password(context, password):
 @given("I select the checkbox")
 def I_select_the_checkbox(context):
     context.homepage = HomePage(context.driver)
-    context.homepage.check_check_box()
+    context.homepage.check_checkbox()
 
 
 @given("I select a gender of '{gender}'")
