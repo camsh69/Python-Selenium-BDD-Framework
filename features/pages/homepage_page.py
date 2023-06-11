@@ -26,7 +26,7 @@ class HomePage(BasePage):
         self.wait_for_element_to_be_clickable(element)
         return element
 
-    def select_check_box(self):
+    def select_checkbox(self):
         element = self.driver.find_element(*HomePage.checkBox)
         self.wait_for_element_to_be_clickable(element)
         return element
@@ -59,7 +59,7 @@ class HomePage(BasePage):
         self.log.logger.info(f"Typing in a password with value {password}")
 
     def check_checkbox(self):
-        self.select_check_box().click()
+        self.select_checkbox().click()
         self.log.logger.info("Clicking on a Checkbox")
 
     def enter_gender(self, gender):
