@@ -72,6 +72,10 @@ https://behave.readthedocs.io/en/latest/install.html
 
 ## Install Allure Reports
 
+https://docs.qameta.io/allure/#_get_started
+
+## Install Allure-Behave
+
 https://pypi.org/project/allure-behave/
 
 #### Windows
