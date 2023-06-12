@@ -42,7 +42,7 @@ Path variable is set automatically by MacOS on install
 
 https://pypi.org/project/selenium
 
-(PIP is a python package manager - https://pip.pypa.io/en/stable/)
+(pip is a python package manager - https://pip.pypa.io/en/stable/)
 
 #### Windows
 
