@@ -14,7 +14,7 @@ class Logger:
         curr_time = time.strftime("%Y-%m-%d")
         self.LogFileName = "log" + curr_time + ".txt"
         # "a" to append the logs in same file, "w" to generate new logs and delete old one
-        fh = logging.FileHandler(self.LogFileName, mode="w")
+        fh = logging.FileHandler(self.LogFileName, mode="a")
         fh.setFormatter(fmt)
         fh.setLevel(file_level)
         self.logger.addHandler(fh)
