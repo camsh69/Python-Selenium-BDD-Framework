@@ -23,8 +23,18 @@ class BasePage(object):
         except TimeoutException:
             return False
 
-    def select_option_by_text(self, locator, text):
-        dropdown = Select(locator)
+    def enter_text(self, element, text):
+        self.wait_for_element_to_be_clickable(element)
+        element.clear()
+        element.send_keys(text)
+
+    def click_element(self, element):
+        self.wait_for_element_to_be_clickable(element)
+        element.click()
+
+    def select_option_by_text(self, element, text):
+        self.wait_for_element_to_be_clickable(element)
+        dropdown = Select(element)
         dropdown.select_by_visible_text(text)
 
     def verify_link_presence(self, text):
