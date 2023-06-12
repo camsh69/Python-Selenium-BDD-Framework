@@ -1,8 +1,8 @@
 # Python-Selenium-Behave-BDD
 
-- Url, browser and headless option for chrome can be set in config/config.ini 
+- Url, browser and headless option for chrome can be set in config/config.ini
 - `behave` to run all tests
-- `behave features\(name_of_feature).feature` to run specific feature file
+- `behave features/(name_of_feature).feature` to run specific feature file
 - `behave -f allure_behave.formatter:AllureFormatter -o reports/ features` to run tests and then `allure serve reports/` to generate a report
 
 #### TO DO
