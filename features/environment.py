@@ -12,8 +12,9 @@ def before_scenario(context, driver):
     if browser == "chrome":
         options = webdriver.ChromeOptions()
         if headless == "true":
-            options.add_argument("--headless")
+            options.add_argument("--headless=new")
             options.add_argument("--start-maximized")
+            options.add_experimental_option("excludeSwitches", ["enable-automation"])
         context.driver = webdriver.Chrome(options=options)
     elif browser == "firefox":
         context.driver = webdriver.Firefox()
