@@ -1,0 +1,77 @@
+2023-06-12 18:43:10,867 - homepage_page.py:[17] - [INFO] - Typing in a name with value Joe
+2023-06-12 18:43:11,299 - homepage_page.py:[22] - [INFO] - Typing in an email with value dummy@email.com
+2023-06-12 18:43:11,503 - homepage_page.py:[27] - [INFO] - Typing in a password with value password
+2023-06-12 18:43:12,246 - homepage_page.py:[32] - [INFO] - Clicking on a Checkbox
+2023-06-12 18:43:12,637 - homepage_page.py:[37] - [INFO] - Selecting a dropdown option with value Male
+2023-06-12 18:43:13,084 - homepage_page.py:[42] - [INFO] - Clicking on submit button
+2023-06-12 18:43:13,099 - homepage_page.py:[47] - [INFO] - Message is visible
+2023-06-12 18:43:24,321 - homepage_page.py:[17] - [INFO] - Typing in a name with value Sue
+2023-06-12 18:43:24,997 - homepage_page.py:[22] - [INFO] - Typing in an email with value dummy@email.com
+2023-06-12 18:43:25,185 - homepage_page.py:[27] - [INFO] - Typing in a password with value password
+2023-06-12 18:43:25,659 - homepage_page.py:[32] - [INFO] - Clicking on a Checkbox
+2023-06-12 18:43:25,971 - homepage_page.py:[37] - [INFO] - Selecting a dropdown option with value Female
+2023-06-12 18:43:26,175 - homepage_page.py:[42] - [INFO] - Clicking on submit button
+2023-06-12 18:43:26,204 - homepage_page.py:[47] - [INFO] - Message is visible
+2023-06-12 18:46:50,543 - homepage_page.py:[17] - [INFO] - Typing in a name with value Joe
+2023-06-12 18:46:50,972 - homepage_page.py:[22] - [INFO] - Typing in an email with value dummy@email.com
+2023-06-12 18:46:51,216 - homepage_page.py:[27] - [INFO] - Typing in a password with value password
+2023-06-12 18:46:51,943 - homepage_page.py:[32] - [INFO] - Clicking on a Checkbox
+2023-06-12 18:46:52,333 - homepage_page.py:[37] - [INFO] - Selecting a dropdown option with value Male
+2023-06-12 18:46:52,754 - homepage_page.py:[42] - [INFO] - Clicking on submit button
+2023-06-12 18:46:52,771 - homepage_page.py:[47] - [INFO] - Message is visible
+2023-06-12 18:47:04,344 - homepage_page.py:[17] - [INFO] - Typing in a name with value Joe
+2023-06-12 18:47:04,751 - homepage_page.py:[22] - [INFO] - Typing in an email with value dummy@email.com
+2023-06-12 18:47:04,946 - homepage_page.py:[27] - [INFO] - Typing in a password with value password
+2023-06-12 18:47:05,717 - homepage_page.py:[32] - [INFO] - Clicking on a Checkbox
+2023-06-12 18:47:06,071 - homepage_page.py:[37] - [INFO] - Selecting a dropdown option with value Male
+2023-06-12 18:47:06,422 - homepage_page.py:[42] - [INFO] - Clicking on submit button
+2023-06-12 18:47:06,441 - homepage_page.py:[47] - [INFO] - Message is visible
+2023-06-12 18:47:16,662 - homepage_page.py:[17] - [INFO] - Typing in a name with value Sue
+2023-06-12 18:47:17,139 - homepage_page.py:[22] - [INFO] - Typing in an email with value dummy@email.com
+2023-06-12 18:47:17,344 - homepage_page.py:[27] - [INFO] - Typing in a password with value password
+2023-06-12 18:47:18,090 - homepage_page.py:[32] - [INFO] - Clicking on a Checkbox
+2023-06-12 18:47:18,668 - homepage_page.py:[37] - [INFO] - Selecting a dropdown option with value Female
+2023-06-12 18:47:19,055 - homepage_page.py:[42] - [INFO] - Clicking on submit button
+2023-06-12 18:47:19,081 - homepage_page.py:[47] - [INFO] - Message is visible
+2023-06-12 18:48:11,355 - homepage_page.py:[17] - [INFO] - Typing in a name with value Joe
+2023-06-12 18:48:11,820 - homepage_page.py:[22] - [INFO] - Typing in an email with value dummy@email.com
+2023-06-12 18:48:12,015 - homepage_page.py:[27] - [INFO] - Typing in a password with value password
+2023-06-12 18:48:12,730 - homepage_page.py:[32] - [INFO] - Clicking on a Checkbox
+2023-06-12 18:48:13,072 - homepage_page.py:[37] - [INFO] - Selecting a dropdown option with value Male
+2023-06-12 18:48:13,510 - homepage_page.py:[42] - [INFO] - Clicking on submit button
+2023-06-12 18:48:13,526 - homepage_page.py:[47] - [INFO] - Message is visible
+2023-06-12 18:48:24,911 - homepage_page.py:[17] - [INFO] - Typing in a name with value Joe
+2023-06-12 18:48:25,376 - homepage_page.py:[22] - [INFO] - Typing in an email with value dummy@email.com
+2023-06-12 18:48:25,573 - homepage_page.py:[27] - [INFO] - Typing in a password with value password
+2023-06-12 18:48:26,273 - homepage_page.py:[32] - [INFO] - Clicking on a Checkbox
+2023-06-12 18:48:26,614 - homepage_page.py:[37] - [INFO] - Selecting a dropdown option with value Male
+2023-06-12 18:48:26,969 - homepage_page.py:[42] - [INFO] - Clicking on submit button
+2023-06-12 18:48:26,987 - homepage_page.py:[47] - [INFO] - Message is visible
+2023-06-12 18:48:37,422 - homepage_page.py:[17] - [INFO] - Typing in a name with value Sue
+2023-06-12 18:48:37,880 - homepage_page.py:[22] - [INFO] - Typing in an email with value dummy@email.com
+2023-06-12 18:48:38,078 - homepage_page.py:[27] - [INFO] - Typing in a password with value password
+2023-06-12 18:48:38,651 - homepage_page.py:[32] - [INFO] - Clicking on a Checkbox
+2023-06-12 18:48:39,335 - homepage_page.py:[37] - [INFO] - Selecting a dropdown option with value Female
+2023-06-12 18:48:39,716 - homepage_page.py:[42] - [INFO] - Clicking on submit button
+2023-06-12 18:48:39,745 - homepage_page.py:[47] - [INFO] - Message is visible
+2023-06-12 18:49:12,286 - homepage_page.py:[17] - [INFO] - Typing in a name with value Joe
+2023-06-12 18:49:12,783 - homepage_page.py:[22] - [INFO] - Typing in an email with value dummy@email.com
+2023-06-12 18:49:12,967 - homepage_page.py:[27] - [INFO] - Typing in a password with value password
+2023-06-12 18:49:13,689 - homepage_page.py:[32] - [INFO] - Clicking on a Checkbox
+2023-06-12 18:49:14,049 - homepage_page.py:[37] - [INFO] - Selecting a dropdown option with value Male
+2023-06-12 18:49:14,408 - homepage_page.py:[42] - [INFO] - Clicking on submit button
+2023-06-12 18:49:14,430 - homepage_page.py:[47] - [INFO] - Message is visible
+2023-06-12 18:49:24,724 - homepage_page.py:[17] - [INFO] - Typing in a name with value Joe
+2023-06-12 18:49:25,194 - homepage_page.py:[22] - [INFO] - Typing in an email with value dummy@email.com
+2023-06-12 18:49:25,387 - homepage_page.py:[27] - [INFO] - Typing in a password with value password
+2023-06-12 18:49:26,162 - homepage_page.py:[32] - [INFO] - Clicking on a Checkbox
+2023-06-12 18:49:26,389 - homepage_page.py:[37] - [INFO] - Selecting a dropdown option with value Male
+2023-06-12 18:49:26,745 - homepage_page.py:[42] - [INFO] - Clicking on submit button
+2023-06-12 18:49:26,762 - homepage_page.py:[47] - [INFO] - Message is visible
+2023-06-12 18:49:36,365 - homepage_page.py:[17] - [INFO] - Typing in a name with value Sue
+2023-06-12 18:49:36,831 - homepage_page.py:[22] - [INFO] - Typing in an email with value dummy@email.com
+2023-06-12 18:49:37,026 - homepage_page.py:[27] - [INFO] - Typing in a password with value password
+2023-06-12 18:49:37,462 - homepage_page.py:[32] - [INFO] - Clicking on a Checkbox
+2023-06-12 18:49:38,262 - homepage_page.py:[37] - [INFO] - Selecting a dropdown option with value Female
+2023-06-12 18:49:38,677 - homepage_page.py:[42] - [INFO] - Clicking on submit button
+2023-06-12 18:49:38,704 - homepage_page.py:[47] - [INFO] - Message is visible
