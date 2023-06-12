@@ -44,4 +44,5 @@ class HomePage(BasePage):
     def select_message(self):
         element = self.driver.find_element(*HomePage.message)
         self.is_element_visible(element)
+        self.log.logger.info("Message is visible")
         return element
