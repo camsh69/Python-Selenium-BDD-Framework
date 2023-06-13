@@ -5,10 +5,6 @@
 - `behave features/(name_of_feature).feature` to run specific feature file
 - `behave -f allure_behave.formatter:AllureFormatter -o reports/ features` to run tests and then `allure serve reports/` to generate a report
 
-#### TO DO
-
-Add more BDD examples.
-
 ## Installs/Dependencies
 
 ### Download Python
